@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoOcr.types.js","sourceRoot":"","sources":["../src/ExpoOcr.types.ts"],"names":[],"mappings":"","sourcesContent":["export type ChangeEventPayload = {\n  value: string;\n};\n\nexport type ExpoOcrViewProps = {\n  name: string;\n};\n"]}

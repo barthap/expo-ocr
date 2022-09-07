@@ -1,0 +1,39 @@
+{
+  "name": "expo-ocr",
+  "version": "0.1.0",
+  "description": "OCR for React Native",
+  "main": "build/ExpoOcr.js",
+  "types": "build/ExpoOcr.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-ocr",
+    "ExpoOcr"
+  ],
+  "repository": "https://github.com/barthap/expo-ocr",
+  "bugs": {
+    "url": "https://github.com/barthap/expo-ocr/issues"
+  },
+  "author": "Bartłomiej Klocek <bartlomiej.klocek@swmansion.com> (https://github.com/barthap)",
+  "license": "MIT",
+  "homepage": "https://github.com/barthap/expo-ocr#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^2.1.1",
+    "expo-modules-core": "^0.11.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
